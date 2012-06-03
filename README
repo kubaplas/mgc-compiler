@@ -1,0 +1,12 @@
+Jakub Płaskonka 179970
+
+Pliki:
+bison.y - plik bisona, wraz z kodem w c++ (cały kod w jednym pliku)
+flex.l - plik flexa
+
+1. Kompilacja:
+	$ make
+2. Uruchomienie:
+	$ ./kompilator < plik_źródłowy > plik_wynikowy
+	
+	Błędy są przekazywane na standardowe wyjście, więc nadpisują zawartość pliku wynikowego.
